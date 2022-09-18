@@ -4,7 +4,7 @@ This repository contains Heavy compatible Pure Data patches that are used by dif
 
 Here you find only the DSP code, the specific integrations each have their own repositories:
 
-* [DPF]() #todo
+* [DPF](https://github.com/Wasted-Audio/hvcc-examples-dpf)
 * [Javascript]() #todo
 * [OWL]() #todo
 * [Daisy]() #todo
