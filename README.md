@@ -5,14 +5,14 @@ This repository contains Heavy compatible Pure Data patches that are used by dif
 Here you find only the DSP code, the specific integrations each have their own repositories:
 
 * [DPF](https://github.com/Wasted-Audio/hvcc-examples-dpf)
-* [Javascript]() #todo
+* [Javascript](https://github.com/Wasted-Audio/hvcc-examples-js)
 * [OWL]() #todo
 * [Daisy]() #todo
 * [Unity]() #todo
 
 ## Audio Effects
 
-* Delay: Simple
+* Delay: Simple - basic delay patch with dry/wet, delay-time and feedback controls.
 * Delay: Advanced #todo
 * Distortion: Simple #todo
 * Distortion: Advanced #todo
@@ -21,6 +21,10 @@ Here you find only the DSP code, the specific integrations each have their own r
 
 * Substractive Mono Synth #todo
 * Substractive Poly Synth #todo
+
+## Sound Toys
+
+* Chip: 8-bit style sfx - Oscillator and noise generator with individual envelopes and additional flanger, bitcrusher and downsampling effects.
 
 ## MIDI
 
