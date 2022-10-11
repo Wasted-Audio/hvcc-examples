@@ -25,6 +25,7 @@ Here you find only the DSP code, the specific integrations each have their own r
 ## Sound Toys
 
 * Chip: 8-bit style sfx - Oscillator and noise generator with individual envelopes and additional flanger, bitcrusher and downsampling effects.
+* Krell: based on the 1959 movie Forbidden Planet, in a segment where they supposedly play the music of the ancient Krell race. In general terms, each note has a random pitch, envelope, and duration.
 
 ## MIDI
 
