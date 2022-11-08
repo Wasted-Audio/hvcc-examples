@@ -1,4 +1,4 @@
-#N canvas 827 239 527 327 12;
+#N canvas 1200 254 687 549 12;
 #N canvas 0 50 450 250 (subpatch) 0;
 #X text 0 0 plugdatainfo <?xml version="1.0" encoding="UTF-8"?> <PlugDataInfo/>
 ;
@@ -9,16 +9,18 @@
 #X obj 254 154 / 127;
 #X obj 296 212 * 0.5;
 #X obj 272 262 pack;
-#X obj 399 125 sel 0;
+#X obj 405 228 sel 0;
 #X msg 405 307 0 700;
 #X msg 272 301 \$1 5 \, \$2 200 5;
 #X obj 183 302 hv.osc saw;
-#X obj 179 67 inlet;
+#X obj 183 31 inlet;
 #X obj 197 447 outlet~;
-#X obj 361 68 inlet;
-#X text 235 65 frequency;
-#X text 427 68 velocity;
+#X obj 254 94 inlet;
+#X text 239 29 frequency;
 #X text 270 446 output;
+#X obj 405 148 inlet;
+#X text 310 94 velocity high;
+#X text 457 147 velocity 0;
 #X connect 1 0 2 1;
 #X connect 2 0 11 0;
 #X connect 3 0 5 0;
@@ -31,4 +33,4 @@
 #X connect 9 0 2 0;
 #X connect 10 0 9 0;
 #X connect 12 0 3 0;
-#X connect 12 0 6 0;
+#X connect 15 0 6 0;
