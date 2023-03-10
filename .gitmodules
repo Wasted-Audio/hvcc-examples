@@ -1,0 +1,3 @@
+[submodule "heavylib"]
+	path = heavylib
+	url = git@github.com:Wasted-Audio/heavylib.git

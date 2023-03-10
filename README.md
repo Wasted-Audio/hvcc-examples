@@ -1,10 +1,33 @@
-# Heavy Integration Examples
+# Heavy Example code
 ---
-#####[Javascript - Loading Samples](https://github.com/enzienaudio/examples/tree/master/javascript/loading_samples)
+This repository contains Heavy compatible Pure Data patches that are used by different integration examples.
 
-* Load samples into existing tables in the patch via the javascript interface.
+Here you find only the DSP code, the specific integrations each have their own repositories:
 
-#####[PortAudio](https://github.com/enzienaudio/examples/tree/master/portaudio)
+* [DPF](https://github.com/Wasted-Audio/hvcc-examples-dpf)
+* [Javascript](https://github.com/Wasted-Audio/hvcc-examples-js)
+* [OWL]() #todo
+* [Daisy]() #todo
+* [Unity]() #todo
 
-* Shows how to set up a PortAudio wrapper and audio callback.
-* Example of using the short (16 bit integer) process method.
+## Audio Effects
+
+* Delay: Simple - basic delay patch with dry/wet, delay-time and feedback controls.
+* Delay: Advanced #todo
+* Distortion: Simple #todo
+* Distortion: Advanced #todo
+
+## Audio Synths
+
+* Substractive Mono Synth #todo
+* Substractive Poly Synth #todo
+
+## Sound Toys
+
+* Chip: 8-bit style sfx - Oscillator and noise generator with individual envelopes and additional flanger, bitcrusher and downsampling effects.
+* Krell: based on the 1959 movie Forbidden Planet, in a segment where they supposedly play the music of the ancient Krell race. In general terms, each note has a random pitch, envelope, and duration.
+
+## MIDI
+
+* Generative Sequencer #todo
+* Note Manipulation #todo
